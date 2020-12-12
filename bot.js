@@ -47,7 +47,7 @@ if (location.host.indexOf("grepolis.com", location.host.length - "grepolis.com".
                     for (f in this.items) {
                         var filter = this.items[f],
                             result = filter(0, 0, 0, 0, 0, module);
-                        if (!result) return false;
+                        //if (!result) return false;
                     }
                     return true;
                 };
